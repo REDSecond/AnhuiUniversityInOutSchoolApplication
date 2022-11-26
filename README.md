@@ -25,7 +25,7 @@ inschool.py（入校申请）
 outschool.py（出校申请）  
 [如何下载github文件](https://blog.csdn.net/qq_41185868/article/details/106156697)  
 ### 2.更改代码  
-#### 2.1更改学号密码 
+#### 2.1输入学号密码 
 ```python
     wd.find_element(By.ID,'un').send_keys('你的学号')
     wd.find_element(By.ID,'pd').send_keys('你的密码')
