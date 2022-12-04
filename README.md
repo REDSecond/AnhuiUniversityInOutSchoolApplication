@@ -33,7 +33,7 @@ outschool.py（出校申请）
 ##### 找到这两个部分，在引号中间输入自己的学号密码
 #### 2.2更改辅导员姓名  
 一、点击辅导员选项下拉按钮，右键自己辅导员姓名，点击检查  
-二、右键右侧高亮区域，右键选中，点击copy->full Xpath
+二、右键右侧高亮区域，右键选中，点击copy->full Xpath（如果报错可能问题出在这里，把full Xpath换成Xpath也可以）
 ##### 如下图所示  
 <img src=https://github.com/REDSecond/AnhuiUniversityInOutSchoolApplication/blob/main/%E5%9B%BE2.png  />  
 找到下面这行代码，将刚才copy的内容粘贴到两个引号中  
