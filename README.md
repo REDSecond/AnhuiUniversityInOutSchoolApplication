@@ -1,3 +1,10 @@
+更新：  
+如果报错，试着将下方最后一行对应代码替换  
+```python
+wd.find_element(By.XPATH,'//span[@class="fa fa-edit"]').click()
+time.sleep(2)
+wd.find_element(By.XPATH,'//*[@id="serve-content"]/div/div[1]/div[3]/p[1]/span').click()
+```
 # 傻瓜式出入校申请自动化   
 通过selenium实现安徽大学出入校申请，方便走读使用  
 ## 功能：  
@@ -33,7 +40,7 @@ outschool.py（出校申请）
 ##### 找到这两个部分，在引号中间输入自己的学号密码
 #### 2.2更改辅导员姓名  
 一、点击辅导员选项下拉按钮，右键自己辅导员姓名，点击检查  
-二、右键右侧高亮区域，右键选中，点击copy->full Xpath（如果报错可能问题出在这里，把full Xpath换成Xpath也可以）
+二、右键右侧高亮区域，右键选中，点击copy->full Xpath
 ##### 如下图所示  
 <img src=https://github.com/REDSecond/AnhuiUniversityInOutSchoolApplication/blob/main/%E5%9B%BE2.png  />  
 找到下面这行代码，将刚才copy的内容粘贴到两个引号中  
