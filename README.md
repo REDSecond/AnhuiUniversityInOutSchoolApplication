@@ -5,6 +5,7 @@ wd.find_element(By.XPATH,'//span[@class="fa fa-edit"]').click()
 time.sleep(2)
 wd.find_element(By.XPATH,'//*[@id="serve-content"]/div/div[1]/div[3]/p[1]/span').click()
 ```
+也可以尝试把所有元素位置改为Xpath，现在用的基本上都是full Xpath
 # 傻瓜式出入校申请自动化   
 通过selenium实现安徽大学出入校申请，方便走读使用  
 ## 功能：  
